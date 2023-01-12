@@ -1,14 +1,12 @@
 server:
  port: 9000
- 
-eureka:
+ eureka:
  instance:
    prefer-ip-address: true
  client:
    service-url:
      defaultZone: http://localhost:9999/eureka/
- 
-management:
+ management:
  endpoints:
    web:
      exposure:
